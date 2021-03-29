@@ -1,18 +1,12 @@
 {
   "name": "use-state-effect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "useState + useEffect",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch",
     "prepublish": "tsc"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "keywords": [
     "react",
@@ -24,8 +18,8 @@
   "homepage": "https://github.com/AlvinYou/useStateEffect",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "latest",
     "@types/react": "latest",
-    "husky": "latest",
     "typescript": "latest"
   },
   "peerDependencies": {
